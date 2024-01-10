@@ -1,0 +1,37 @@
+body{
+    width:100%;
+    color:#fff;
+}
+
+h3{
+    padding-left:15px;
+}
+
+.stopwatch_decoration{
+    width:50%;
+    border:10px ridge orange;
+    background-color:#090;
+}
+
+#stopwatch{
+    max-width:100%;
+    font-size:36px;
+    padding-left:30px;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:20px;
+}
+
+
+ul{
+    list-style:none;
+}
+
+button:disabled{
+    background-color:#aaa;
+}
+
+.button_decoration{
+    padding-left:30px;
+    margin-bottom:20px;
+}
