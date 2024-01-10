@@ -32,6 +32,7 @@ startButton.addEventListener('click', () =>{
     startButton.disabled = true;
     stopButton.disabled = false;
     resetButton.disabled = true;
+    console.log("start");
 });
 
 stopButton.addEventListener('click', () =>{
@@ -39,6 +40,7 @@ stopButton.addEventListener('click', () =>{
     startButton.disabled = false;
     stopButton.disabled = true;
     resetButton.disabled = false;
+    console.log("stop");
 });
 
 resetButton.addEventListener('click', () =>{
@@ -50,4 +52,5 @@ resetButton.addEventListener('click', () =>{
     startButton.disabled = false;
     stopButton.disabled = true;
     resetButton.disabled = true;
+    console.log("reset");
 });
